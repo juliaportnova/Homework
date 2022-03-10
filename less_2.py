@@ -1,5 +1,5 @@
 #№1
-a = [3,5,2.75,'hello']
+# a = [3,5,2.75,'hello']
 # print(type(a[0]))
 # print(type(a[1]))
 # print(type(a[2]))
@@ -26,18 +26,23 @@ a = [3,5,2.75,'hello']
 #     i +=1
 #     j +=1
 #     print(f'{i}.{my_str.split()[j][0:10]}')
-""" не поняла, почему он выполняет, что нужно, но при этом ругается, что не так? """
+# """ не поняла, почему он выполняет, что нужно, но при этом ругается, что не так? """
 #№5
 # my_list = [9,7,5,3,1]
 # my_list.append(int(input('Введите число:')))
 # my_list.sort(reverse=True)
 # print(my_list)
-#№6
-list = []
-nazv = input('Введите название:')
-cena = input('Введите цену:')
-kolvo = input('Введите количество:')
-my_voc = {"название":nazv,"цена":cena,"количество":kolvo}
-my_kort = (1,my_voc)
-list.append(my_kort)
-print(list)
+# №6
+# list = []
+# my_voc = []
+# my_vocv = {}
+# n=0
+# number = int(input('Введите количество позиций:'))
+# while n < number:
+#     n +=1
+#     my_voc = dict({'название':input('Введите название:'),'цена':input('Введите цену:'),'количество':input('Введите количество:')})
+#     my_list = list.append((n,my_voc))
+#     my_vocv = dict({'название': my_voc.get('название'), 'цена': my_voc.get('цена'), 'количество': my_voc.get('количество')})
+# print(my_vocv.values())
+# print(list)
+# """не поняла, как в итоге вывести, как в примере, чтоб данные были сгруппированы по названию, цене и т.д."""
