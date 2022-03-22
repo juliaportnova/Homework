@@ -7,8 +7,20 @@
 #№2
 # b = list(input('Введите список:'))
 # print(b)
-# b[0],b[1] = b[1],b[0]
-# b[2],b[3] = b[3],b[2]
+# i = 0
+# if len(b) % 2 == 0:
+#     while i < len(b):
+#         k = b[i]
+#         b[i] = b[i+1]
+#         b [i+1] = k
+#         i += 2
+# else:
+#     i = 0
+#     while i < len(b)-1:
+#         k = b[i]
+#         b[i] = b[i+1]
+#         b [i+1] = k
+#         i += 2
 # print(b)
 #№3
 # month = input('Месяц:')
@@ -22,11 +34,10 @@
 # i = 0
 # j = -1
 # my_str = str(input('Words:'))
-# for words in my_str:
+# for words in my_str.split():
 #     i +=1
 #     j +=1
 #     print(f'{i}.{my_str.split()[j][0:10]}')
-# """ не поняла, почему он выполняет, что нужно, но при этом ругается, что не так? """
 #№5
 # my_list = [9,7,5,3,1]
 # my_list.append(int(input('Введите число:')))
