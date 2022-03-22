@@ -30,21 +30,22 @@
 #№5
 # def my_sum():
 #     my_sum = 0
+#     sum = 0
 #     stop = False
+#     i = 0
 #     while stop == False:
 #         global arguments
 #         arguments = input('Введите числа или "s" для зaвершения:').split()
 #         for n in arguments:
-#             sum = 0
-#             if arguments[n] == 'S':
+#             if n == 'S':
 #                 stop = True
 #                 break
 #             else:
-#                 sum += arguments[n]
+#                 sum += ???
 #     my_sum += sum
 #     return my_sum
 # print(my_sum())
-# """как только не пыталась написать, так и не разобралась, как правильно сделать"""
+# """ВСЕ РАВНО НЕ ПОНЯЛА).как только не пыталась написать, так и не разобралась, как правильно сделать"""
 #№6
 # def int_func(args):
 #    return args.title()
