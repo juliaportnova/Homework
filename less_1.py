@@ -23,17 +23,13 @@
 # N2 = N1 + N1 + N1 * 10 + N1 + N1 * 10 + N1 * 100
 # print(f'n+nn+nnn={N2}')
 #№4
-#не поняла, почему написано "используйте цикл while", самую большую цифру через if нашла
-# G1 = int(input('Целое число:'))
-# hun = G1 // 100
-# dec = G1 % 100 // 10
-# ed = G1 % 10
-# if hun >= dec and hun >= ed:
-#     print (f'Cамая большая цифра: {hun}')
-# elif dec >= hun and dec >= ed:
-#     print(f'Cамая большая цифра: {dec}')
-# elif ed >= hun and ed >= dec:
-#     print(f'Cамая большая цифра: {ed}')
+# a = int(input('Введите число:'))
+# maximum = 0
+# while a > 0:
+#     if maximum < a % 10:
+#         maximum = a % 10
+#     a = a // 10
+# print (maximum)
 #№5+№6
 # TR = int(input('Выручка:'))
 # TC = int(input('Издержки:'))
