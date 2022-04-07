@@ -1,5 +1,14 @@
 #№1
-# С матрицами что-то не разобралась.
+# class Matrix:
+#     def __init__(self, *lists:[]):
+#         self.lists = lists
+#     def __str__(self):
+#         return '\n'.join(['\n'.join(map(str, row)) for row in self.lists])
+# a= Matrix([[7, 19, 25],
+#             [3, 13, 23],
+#             [77, 11, 33]])
+# print(a)
+# Со сложением матриц что-то не разобралась.
 #№2
 # from abc import ABC, abstractmethod
 # class AbstractClothes(ABC):
